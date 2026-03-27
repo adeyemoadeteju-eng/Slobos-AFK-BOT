@@ -26,23 +26,21 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
-      "repeat-delay": 500,
+      "enabled": false,
+      "repeat": false,
+      "repeat-delay": 60000,
       "messages": [
-        "I'm a regular player",
-        "Sub to 2wzyl on Tiktok",
-        "Sub to 2wzyl on yt"
+        "Hello!"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 20000,
+    "auto-reconnect-delay": 5000,
+    "max-reconnect-delay": 60000,
     "periodic-rejoin": {
       "enabled": true,
-      "min-interval": 20,
-      "max-interval": 60
+      "min-interval": 30,
+      "max-interval": 90
     }
   },
   "movement": {
